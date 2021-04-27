@@ -1,0 +1,32 @@
+.container {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(73, 72, 72);
+   color: white;
+   font-family: "Roboto", sans-serif;
+     
+}
+
+.nav-links {
+    list-style-type: none; 
+
+}
+a {
+    text-decoration: none;
+    color: white;
+       
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li {
+    display: inline-flex;
+    padding: 10px;
+}
+.btn {
+    background-color: rgb(125, 154, 243);
+    box-shadow: black 3px 3px 8px;
+}
